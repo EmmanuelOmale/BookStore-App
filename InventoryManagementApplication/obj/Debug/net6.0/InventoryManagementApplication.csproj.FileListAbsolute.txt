@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementApplication\bin\Debug\net6.0\InventoryManagementApplication.deps.json
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementApplication\bin\Debug\net6.0\InventoryManagementApplication.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementApplication\bin\Debug\net6.0\InventoryManagementApplication.pdb
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementApplication\obj\Debug\net6.0\InventoryManagementApplication.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementApplication\obj\Debug\net6.0\InventoryManagementApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementApplication\obj\Debug\net6.0\InventoryManagementApplication.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementApplication\obj\Debug\net6.0\InventoryManagementApplication.AssemblyInfo.cs
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementApplication\obj\Debug\net6.0\InventoryManagementApplication.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementApplication\obj\Debug\net6.0\InventoryManagementApplication.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementApplication\obj\Debug\net6.0\refint\InventoryManagementApplication.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementApplication\obj\Debug\net6.0\InventoryManagementApplication.pdb
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementApplication\obj\Debug\net6.0\ref\InventoryManagementApplication.dll

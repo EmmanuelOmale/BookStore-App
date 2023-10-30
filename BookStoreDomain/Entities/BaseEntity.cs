@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace BookStoreDomain.Entities
 {
-    public abstract class BaseEntity 
+    public class BaseEntity 
     {
-        public virtual int Id { get; set; }
+        public string Id { get; set; }
     }
 }

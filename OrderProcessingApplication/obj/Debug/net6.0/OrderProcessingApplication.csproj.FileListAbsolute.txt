@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\bin\Debug\net6.0\OrderProcessingApplication.deps.json
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\bin\Debug\net6.0\OrderProcessingApplication.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\bin\Debug\net6.0\OrderProcessingApplication.pdb
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\obj\Debug\net6.0\OrderProcessingApplication.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\obj\Debug\net6.0\OrderProcessingApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\obj\Debug\net6.0\OrderProcessingApplication.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\obj\Debug\net6.0\OrderProcessingApplication.AssemblyInfo.cs
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\obj\Debug\net6.0\OrderProcessingApplication.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\obj\Debug\net6.0\OrderProcessingApplication.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\obj\Debug\net6.0\refint\OrderProcessingApplication.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\obj\Debug\net6.0\OrderProcessingApplication.pdb
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\obj\Debug\net6.0\ref\OrderProcessingApplication.dll

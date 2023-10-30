@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementPersistence\bin\Debug\net6.0\InventoryManagementPersistence.deps.json
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementPersistence\bin\Debug\net6.0\InventoryManagementPersistence.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementPersistence\bin\Debug\net6.0\InventoryManagementPersistence.pdb
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementPersistence\obj\Debug\net6.0\InventoryManagementPersistence.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementPersistence\obj\Debug\net6.0\InventoryManagementPersistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementPersistence\obj\Debug\net6.0\InventoryManagementPersistence.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementPersistence\obj\Debug\net6.0\InventoryManagementPersistence.AssemblyInfo.cs
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementPersistence\obj\Debug\net6.0\InventoryManagementPersistence.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementPersistence\obj\Debug\net6.0\InventoryManagementPersistence.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementPersistence\obj\Debug\net6.0\refint\InventoryManagementPersistence.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementPersistence\obj\Debug\net6.0\InventoryManagementPersistence.pdb
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementPersistence\obj\Debug\net6.0\ref\InventoryManagementPersistence.dll
