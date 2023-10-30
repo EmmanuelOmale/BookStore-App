@@ -1,4 +1,4 @@
-﻿namespace OrderProcessingDomain
+﻿namespace MessageBroker
 {
     public class Class1
     {
