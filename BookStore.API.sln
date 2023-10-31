@@ -27,8 +27,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagementPersiste
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessingPersistence", "OrderProcessingPersistence\OrderProcessingPersistence.csproj", "{2EA128F5-4F51-4B4B-A108-10DB48BFAB5E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookStoreService", "BookStoreService", "{61E5E661-E8C1-4EA3-90D4-60F37E234E0B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,12 +84,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{E3997B14-9942-4953-99FA-ADF49B2AAD32} = {61E5E661-E8C1-4EA3-90D4-60F37E234E0B}
-		{15DC35CE-6577-4D20-84DB-3435ACE33B51} = {61E5E661-E8C1-4EA3-90D4-60F37E234E0B}
-		{580E8D1F-AEF6-4FFC-92D2-5A85CE8BF9BC} = {61E5E661-E8C1-4EA3-90D4-60F37E234E0B}
-		{E23AA31E-7A2A-48A4-85FB-9FE53B7CB8A8} = {61E5E661-E8C1-4EA3-90D4-60F37E234E0B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CCBCA554-C82E-4F67-9DCC-7EA76634EFB9}
