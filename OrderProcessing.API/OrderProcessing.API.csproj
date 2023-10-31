@@ -18,8 +18,4 @@
     <ProjectReference Include="..\OrderProcessingPersistence\OrderProcessingPersistence.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>
