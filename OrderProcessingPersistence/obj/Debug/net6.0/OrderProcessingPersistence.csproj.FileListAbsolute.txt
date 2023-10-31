@@ -10,3 +10,8 @@ C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingPersist
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingPersistence\obj\Debug\net6.0\refint\OrderProcessingPersistence.dll
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingPersistence\obj\Debug\net6.0\OrderProcessingPersistence.pdb
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingPersistence\obj\Debug\net6.0\ref\OrderProcessingPersistence.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingPersistence\bin\Debug\net6.0\OrderProcessingPersistence.runtimeconfig.json
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingPersistence\bin\Debug\net6.0\OrderProcessingDomain.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingPersistence\bin\Debug\net6.0\OrderProcessingDomain.pdb
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingPersistence\obj\Debug\net6.0\OrderProcessingPersistence.csproj.CopyComplete
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingPersistence\obj\Debug\net6.0\OrderProcessingPersistence.genruntimeconfig.cache
