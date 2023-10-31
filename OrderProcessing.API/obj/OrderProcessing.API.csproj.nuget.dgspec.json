@@ -31,9 +31,6 @@
             "projectReferences": {
               "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj": {
                 "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj"
-              },
-              "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\OrderProcessingPersistence.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\OrderProcessingPersistence.csproj"
               }
             }
           }

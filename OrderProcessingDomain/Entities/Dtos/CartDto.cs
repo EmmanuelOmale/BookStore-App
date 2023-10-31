@@ -12,6 +12,6 @@ namespace OrderProcessingDomain.Entities.Dtos
         public string CustomerId { get; set; }
         public DateTime OrderDate { get; set; }
         public string OrderStatus { get; set; }
-        public List<CartItem> OrderItems { get; set; }
+        public List<CartItemDto> OrderItems { get; set; }
     }
 }

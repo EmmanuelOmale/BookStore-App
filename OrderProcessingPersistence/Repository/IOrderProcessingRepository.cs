@@ -11,6 +11,6 @@ namespace OrderProcessingPersistence.Repository
     public interface IOrderProcessingRepository
     {
         Task PlaceOrderAsync(Cart order);
-        Task GetOrderStatusAsync(string orderId);
+        //Task GetOrderStatusAsync(string orderId);
     }
 }

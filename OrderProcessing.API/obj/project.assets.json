@@ -1775,7 +1775,6 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.13",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.18.1",
       "OrderProcessingApplication >= 1.0.0",
-      "OrderProcessingPersistence >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -1809,9 +1808,6 @@
           "projectReferences": {
             "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj": {
               "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj"
-            },
-            "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\OrderProcessingPersistence.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\OrderProcessingPersistence.csproj"
             }
           }
         }

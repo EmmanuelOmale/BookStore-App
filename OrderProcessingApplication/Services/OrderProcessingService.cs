@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using OrderProcessingDomain.Entities;
 using OrderProcessingDomain.Entities.Dtos;
 using OrderProcessingPersistence.Repository;
 using static OrderProcessingDomain.Entities.Enum;
@@ -9,6 +10,7 @@ namespace OrderProcessingApplication.Services
     {
         private readonly IOrderProcessingRepository _orderProcessingRepository;
         private readonly IMapper _mapper;
+
         public OrderProcessingService(IOrderProcessingRepository orderProcessingRepository, IMapper mapper)
         {
             _orderProcessingRepository = orderProcessingRepository;
@@ -23,7 +25,7 @@ namespace OrderProcessingApplication.Services
             {
                 CustomerId = customerId,
                 OrderDate = DateTime.Now,
-                //OrderItems = cartItems,
+                OrderItems = cartItems,
                 OrderStatus = OrderStatus.Pending.ToString(),
 
             };
