@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "86DrfRdaSi8Ic+yfd3Z8jF8goVxvY7QNZwW8P2+E/bvYxRHt4aZMJWg3P63p8Xh/ZYzGikfmZUvnvMmdCAxdNQ==",
+  "dgSpecHash": "7JEEq8cAWqPgI3zfa/854pEykxWh9EtFFAAf+dP2WDtBzsuDCACvkLTjmnTVhrScKHSeFjpXBoVbBA8K1/lsRQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessing.API\\OrderProcessing.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.13\\microsoft.data.sqlite.core.7.0.13.nupkg.sha512",

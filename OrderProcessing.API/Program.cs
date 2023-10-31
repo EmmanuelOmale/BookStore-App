@@ -1,12 +1,17 @@
 using Microsoft.EntityFrameworkCore;
+using OrderProcessingApplication.Mappers;
+using OrderProcessingApplication.Services;
 using OrderProcessingPersistence.Data;
+using OrderProcessingPersistence.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-//builder.Services.AddAutoMapper().
+builder.Services.AddScoped<IOrderProcessingRepository, OrderProcessingRepository>();    
+builder.Services.AddScoped<IOrderProcessingService, OrderProcessingService>();
+builder.Services.AddAutoMapper(typeof(OrderProcessingProfile));
 builder.Services.AddDbContext<OrderContext>(options => options.UseSqlite(builder.Configuration["ConnectionString:SQLite"]));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

@@ -3,29 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.API", "BookStore.API\BookStore.API.csproj", "{E3997B14-9942-4953-99FA-ADF49B2AAD32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore.API", "BookStore.API\BookStore.API.csproj", "{E3997B14-9942-4953-99FA-ADF49B2AAD32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessing.API", "OrderProcessing.API\OrderProcessing.API.csproj", "{6CDC7BC9-7801-4290-B444-EF6BB959D0A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessing.API", "OrderProcessing.API\OrderProcessing.API.csproj", "{6CDC7BC9-7801-4290-B444-EF6BB959D0A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.API", "InventoryManagement.API\InventoryManagement.API.csproj", "{CFBDE049-5BF6-4367-A0F6-B5EAB6AA19E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagement.API", "InventoryManagement.API\InventoryManagement.API.csproj", "{CFBDE049-5BF6-4367-A0F6-B5EAB6AA19E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStoreApplication", "BookStoreApplication\BookStoreApplication.csproj", "{15DC35CE-6577-4D20-84DB-3435ACE33B51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStoreApplication", "BookStoreApplication\BookStoreApplication.csproj", "{15DC35CE-6577-4D20-84DB-3435ACE33B51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingApplication", "OrderProcessingApplication\OrderProcessingApplication.csproj", "{52AFADE8-F436-4448-A4CA-8C8F89237CED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessingApplication", "OrderProcessingApplication\OrderProcessingApplication.csproj", "{52AFADE8-F436-4448-A4CA-8C8F89237CED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagementApplication", "InventoryManagementApplication\InventoryManagementApplication.csproj", "{E20CB002-4617-4B35-8F0C-83CF4B03C259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagementApplication", "InventoryManagementApplication\InventoryManagementApplication.csproj", "{E20CB002-4617-4B35-8F0C-83CF4B03C259}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStoreDomain", "BookStoreDomain\BookStoreDomain.csproj", "{580E8D1F-AEF6-4FFC-92D2-5A85CE8BF9BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStoreDomain", "BookStoreDomain\BookStoreDomain.csproj", "{580E8D1F-AEF6-4FFC-92D2-5A85CE8BF9BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagementDomain", "InventoryManagementDomain\InventoryManagementDomain.csproj", "{78606629-667F-415F-98C8-CEE0C2105B59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagementDomain", "InventoryManagementDomain\InventoryManagementDomain.csproj", "{78606629-667F-415F-98C8-CEE0C2105B59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingDomain", "OrderProcessingDomain\OrderProcessingDomain.csproj", "{78696993-2CB7-43ED-A722-BC3ADDE67788}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessingDomain", "OrderProcessingDomain\OrderProcessingDomain.csproj", "{78696993-2CB7-43ED-A722-BC3ADDE67788}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStorePersistence", "BookStorePersistence\BookStorePersistence.csproj", "{E23AA31E-7A2A-48A4-85FB-9FE53B7CB8A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStorePersistence", "BookStorePersistence\BookStorePersistence.csproj", "{E23AA31E-7A2A-48A4-85FB-9FE53B7CB8A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagementPersistence", "InventoryManagementPersistence\InventoryManagementPersistence.csproj", "{1D895E84-9488-488B-8FD5-C9700BC78F25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagementPersistence", "InventoryManagementPersistence\InventoryManagementPersistence.csproj", "{1D895E84-9488-488B-8FD5-C9700BC78F25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingPersistence", "OrderProcessingPersistence\OrderProcessingPersistence.csproj", "{2EA128F5-4F51-4B4B-A108-10DB48BFAB5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessingPersistence", "OrderProcessingPersistence\OrderProcessingPersistence.csproj", "{2EA128F5-4F51-4B4B-A108-10DB48BFAB5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookStoreService", "BookStoreService", "{61E5E661-E8C1-4EA3-90D4-60F37E234E0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -84,6 +86,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3997B14-9942-4953-99FA-ADF49B2AAD32} = {61E5E661-E8C1-4EA3-90D4-60F37E234E0B}
+		{15DC35CE-6577-4D20-84DB-3435ACE33B51} = {61E5E661-E8C1-4EA3-90D4-60F37E234E0B}
+		{580E8D1F-AEF6-4FFC-92D2-5A85CE8BF9BC} = {61E5E661-E8C1-4EA3-90D4-60F37E234E0B}
+		{E23AA31E-7A2A-48A4-85FB-9FE53B7CB8A8} = {61E5E661-E8C1-4EA3-90D4-60F37E234E0B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CCBCA554-C82E-4F67-9DCC-7EA76634EFB9}
