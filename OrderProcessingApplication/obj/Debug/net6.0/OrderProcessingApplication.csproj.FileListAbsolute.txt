@@ -10,3 +10,8 @@ C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplica
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\obj\Debug\net6.0\refint\OrderProcessingApplication.dll
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\obj\Debug\net6.0\OrderProcessingApplication.pdb
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\obj\Debug\net6.0\ref\OrderProcessingApplication.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\bin\Debug\net6.0\OrderProcessingDomain.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\bin\Debug\net6.0\OrderProcessingPersistence.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\bin\Debug\net6.0\OrderProcessingDomain.pdb
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\bin\Debug\net6.0\OrderProcessingPersistence.pdb
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingApplication\obj\Debug\net6.0\OrderProcessingApplication.csproj.CopyComplete

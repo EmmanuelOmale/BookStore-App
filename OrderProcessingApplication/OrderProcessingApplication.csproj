@@ -7,11 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Mappers\" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\OrderProcessingDomain\OrderProcessingDomain.csproj" />
+    <ProjectReference Include="..\OrderProcessingPersistence\OrderProcessingPersistence.csproj" />
   </ItemGroup>
 
 </Project>

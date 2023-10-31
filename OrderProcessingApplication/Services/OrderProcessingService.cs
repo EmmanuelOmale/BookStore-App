@@ -1,22 +1,33 @@
-﻿using OrderProcessingDomain.Entities.Dtos;
+﻿using AutoMapper;
+using OrderProcessingDomain.Entities.Dtos;
+using OrderProcessingPersistence.Repository;
+using static OrderProcessingDomain.Entities.Enum;
 
 namespace OrderProcessingApplication.Services
 {
-    public class OrderProcessingService //: IOrderProcessingService
+    public class OrderProcessingService : IOrderProcessingService
     {
-       /* public Task<CartDto> PlaceOrderAsync(string customerId, List<CartItemDto> items)
+        private readonly IOrderProcessingRepository _orderProcessingRepository;
+        private readonly IMapper _mapper;
+        public OrderProcessingService(IOrderProcessingRepository orderProcessingRepository, IMapper mapper)
         {
-            var Cart = new CartDto
+            _orderProcessingRepository = orderProcessingRepository;
+            _mapper = mapper;
+        }
+        public async Task<CartDto> PlaceOrderAsync(string customerId, List<CartItemDto> items)
+        {
+         
+            var cartItems = _mapper.Map<List<CartItemDto>>(items);
+
+            var cart = new CartDto
             {
                 CustomerId = customerId,
                 OrderDate = DateTime.Now,
-                OrderItems = items.Select(item => new CartItemDto
-                {
-                    BookId = item.BookId,
-                    Quantity = item.Quantity,
-                }).ToList(),
+                //OrderItems = cartItems,
+                OrderStatus = OrderStatus.Pending.ToString(),
 
             };
-        }*/
+            return cart;
+        }
     }
 }

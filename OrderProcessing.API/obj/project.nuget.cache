@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UUNUxj4AgBRKiLwH45pd1jiTsLWb6rQBwFn9J2/2bIRiuErxhwOEDKpyqIIXUYSMH+LiCkzxO5c+1wzHzq7S2Q==",
+  "dgSpecHash": "ovzIMSjeRSHk/9tPVQndzIFWaReOStf0muKX2/Bt19bSZ5EAibRmhRW4JKen38nyfZR00xke94sn9bMDziw9yw==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessing.API\\OrderProcessing.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.13\\microsoft.data.sqlite.core.7.0.13.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",
