@@ -1,4 +1,6 @@
-﻿using OrderProcessingDomain.Entities.Dtos;
+﻿using OrderProcessingDomain.Entities;
+using OrderProcessingDomain.Entities.Dtos;
+using OrderProcessingPersistence.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,14 +11,21 @@ namespace OrderProcessingPersistence.Repository
 {
     public class OrderProcessingRepository : IOrderProcessingRepository
     {
-        public Task<CartDto> GetOrderStatusAsync(string orderId)
+        private readonly OrderContext _orderContext;
+        public OrderProcessingRepository(OrderContext orderContext)
+        {
+            _orderContext = orderContext;   
+        }
+        public async Task GetOrderStatusAsync(string orderId)
         {
             throw new NotImplementedException();
+            
         }
 
-        public Task<CartDto> PlaceOrderAsync(string customerId, List<CartItemDto> items)
+        public async Task PlaceOrderAsync(Cart order)
         {
-            throw new NotImplementedException();
+            _orderContext.Carts.Add(order);
+            await _orderContext.SaveChangesAsync();
         }
     }
 }
