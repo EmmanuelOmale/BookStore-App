@@ -111,3 +111,5 @@ C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\BookStore.API\bin\Debu
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\BookStore.API\bin\Debug\net6.0\BookStoreApplication.dll
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\BookStore.API\bin\Debug\net6.0\BookStoreApplication.pdb
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\BookStore.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\BookStore.API\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\BookStore.API\bin\Debug\net6.0\System.Threading.Channels.dll

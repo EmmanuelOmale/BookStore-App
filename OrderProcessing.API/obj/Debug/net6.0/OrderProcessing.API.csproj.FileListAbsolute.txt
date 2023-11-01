@@ -86,3 +86,5 @@ C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessing.API\bi
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessing.API\bin\Debug\net6.0\OrderProcessingApplication.dll
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessing.API\bin\Debug\net6.0\OrderProcessingApplication.pdb
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessing.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessing.API\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessing.API\bin\Debug\net6.0\System.Threading.Channels.dll

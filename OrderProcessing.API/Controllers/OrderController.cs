@@ -1,41 +1,49 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using OrderProcessingApplication.Services;
+using OrderProcessingDomain.Entities;
 using OrderProcessingDomain.Entities.Dtos;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
+using System;
 using System.Diagnostics;
 using System.Net;
 using System.Text;
 using System.Text.Json;
-
+using System.Threading.Tasks;
 namespace OrderProcessing.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class OrderController : ControllerBase
     {
-
         private readonly IOrderProcessingService _orderProcessingService;
+
         public OrderController(IOrderProcessingService orderProcessingService)
         {
             _orderProcessingService = orderProcessingService;
         }
-
         [HttpPost]
-        [ProducesResponseType(200)]
-        [ProducesResponseType((int)HttpStatusCode.OK)]
-        public async Task<IActionResult> PlaceOrder([FromBody] CartDto order)
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> PlaceOrder([FromBody] CartItem order)
         {
             if (order == null)
             {
                 return BadRequest("Invalid request.");
             }
-            var customerId = "12345"; // Should be replaced with authenticated customer's Id
-            var items = order.OrderItems;
-            
-
-            return Ok(items);
+            var bookData = await ConsumeBookResponse(order.BookId);
+            var caritem = new CartItem()
+            {
+                BookId = order.BookId,
+                Quantity = order.Quantity,
+                UnitPrice = 20,
+                Id = Guid.NewGuid().ToString(),
+            };
+            _orderProcessingService.PlaceOrderAsync(order.BookId, order.CartId, 20, 200);
+            return Ok(caritem);
         }
+
         private async Task<string> ConsumeBookResponse(string bookId)
         {
             var con = new ConnectionFactory()
@@ -45,41 +53,28 @@ namespace OrderProcessing.API.Controllers
                 Password = "guest",
                 VirtualHost = "/"
             };
-            var fatory = con.CreateConnection();
-            using (var channel = fatory.CreateModel())
+            var factory = con.CreateConnection();
+            using (var channel = factory.CreateModel())
             {
-                // Declare a queue to consume the book response
                 channel.QueueDeclare(queue: "book_response_queue", durable: false, exclusive: false, autoDelete: false, arguments: null);
-
                 var consumer = new EventingBasicConsumer(channel);
                 var bookData = string.Empty;
 
                 consumer.Received += async (model, ea) =>
                 {
-                    // Get the book data from the response
                     var body = ea.Body.ToArray();
-                    
                     bookData = Encoding.UTF8.GetString(body);
-
-
-                    // Check if this is the response for the requested book ID
                     var responseBookId = ea.BasicProperties.CorrelationId;
+
                     if (responseBookId == bookId)
                     {
-
                         var newOrder = await _orderProcessingService.PlaceOrderAsync(bookData, "123", 2, 200);
-
-                        // Continue processing with the new order
-
-                        // Acknowledge the message to remove it from the queue
                         channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
                     }
                 };
 
-                // Start consuming the response from the queue
                 channel.BasicConsume(queue: "book_response_queue", autoAck: false, consumer: consumer);
 
-                // Send a request for the book with the specified bookId
                 var correlationId = bookId;
                 var body = Encoding.UTF8.GetBytes(bookId);
                 channel.BasicPublish(
@@ -88,7 +83,6 @@ namespace OrderProcessing.API.Controllers
                     body: body
                 );
 
-                // Wait for a response
                 var timeout = TimeSpan.FromSeconds(10); // Set a reasonable timeout
                 var stopwatch = Stopwatch.StartNew();
                 while (string.IsNullOrEmpty(bookData) && stopwatch.Elapsed < timeout)
@@ -99,6 +93,5 @@ namespace OrderProcessing.API.Controllers
                 return bookData;
             }
         }
-
-    }
+        }
 }
