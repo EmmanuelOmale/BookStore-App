@@ -16,12 +16,7 @@ namespace OrderProcessingPersistence.Repository
         {
             _orderContext = orderContext;   
         }
-        /*public async Task GetOrderStatusAsync(string orderId)
-        {
-            throw new NotImplementedException();
-            
-        }*/
-
+        
         public async Task PlaceOrderAsync(Cart order)
         {
             _orderContext.Carts.Add(order);

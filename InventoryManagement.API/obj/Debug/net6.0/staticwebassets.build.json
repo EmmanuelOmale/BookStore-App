@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "TpcEWAczQTzE7JVhuzJf/lrwgKKFZFwwCc+nU4QGj2c=",
+  "Hash": "VmCvXmh5/6nJTFeraFFufXjwcIHX+t9dYJGyjSGKN/Y=",
   "Source": "InventoryManagement.API",
   "BasePath": "_content/InventoryManagement.API",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStore.API\\BookStore.API.csproj",
+      "Version": 2,
+      "Source": "BookStore.API",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

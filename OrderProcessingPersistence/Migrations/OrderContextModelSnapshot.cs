@@ -22,10 +22,6 @@ namespace OrderProcessingPersistence.Migrations
                     b.Property<string>("Id")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("BookId")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
                     b.Property<int>("CustomerId")
                         .HasColumnType("INTEGER");
 

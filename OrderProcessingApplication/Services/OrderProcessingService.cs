@@ -16,19 +16,19 @@ namespace OrderProcessingApplication.Services
             _orderProcessingRepository = orderProcessingRepository;
             _mapper = mapper;
         }
-        public async Task<CartDto> PlaceOrderAsync(string customerId, List<CartItemDto> items)
+        public async Task<CartDto> PlaceOrderAsync(string bookid, string cartid, int quantity)
         {
-         
-            var cartItems = _mapper.Map<List<CartItemDto>>(items);
+            var retrievebook = 200;
+            
 
-            var cart = new CartDto
+            var cart = new CartItem()
             {
-                CustomerId = customerId,
-                OrderDate = DateTime.Now,
-                OrderItems = cartItems,
-                OrderStatus = OrderStatus.Pending.ToString(),
+                BookId = bookid,
+                Quantity = quantity,
+                UnitPrice = retrievebook
 
             };
+            
             return cart;
         }
     }
