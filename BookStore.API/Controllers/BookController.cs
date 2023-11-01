@@ -1,6 +1,10 @@
 using BookStoreApplication.Services;
+using BookStoreDomain.Entities;
 using BookStoreDomain.Entities.Dtos;
 using Microsoft.AspNetCore.Mvc;
+using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
+using System.Text;
 
 namespace BookStore.API.Controllers
 {
@@ -41,9 +45,16 @@ namespace BookStore.API.Controllers
         [HttpPost("consume-book-request")]
         public IActionResult ConsumeBookRequest()
         {
-            using (var conn = new ConnectionFatory)
+            var con = new ConnectionFactory()
             {
-                _rabbitConnection.CreateModel()
+                HostName = "localhost",
+                UserName = "guest",
+                Password = "guest",
+                VirtualHost = "/"
+            };
+            var fatory = con.CreateConnection();
+            using (var channel = fatory.CreateModel())
+            {
                 // Declare the queue to consume messages from
                 channel.QueueDeclare(queue: "book_request_queue", durable: false, exclusive: false, autoDelete: false, arguments: null);
 
@@ -53,10 +64,10 @@ namespace BookStore.API.Controllers
                 {
                     // Get the book ID from the message
                     var body = ea.Body;
-                    var requestedBookId = Encoding.UTF8.GetString(body);
-
+                    /*var requestedBookId = Encoding.UTF8.GetString(body);
+*/
                     // Simulate retrieving the book data by book ID
-                    var bookData = RetrieveBookData(requestedBookId);
+                    var bookData = RetrieveBookData(body);
 
                     // Send the book data as a response
                     byte[] responseBytes = Encoding.UTF8.GetBytes(bookData);
@@ -68,6 +79,12 @@ namespace BookStore.API.Controllers
             }
 
             return Ok("Listening for book requests...");
+        }
+        private async Task<Book>  RetrieveBookData(string bookId)
+        {
+            // Simulate retrieving book data from your data source
+            return await _bookService
+                .GetSingleBookAsync(bookId); ;
         }
     }
 }

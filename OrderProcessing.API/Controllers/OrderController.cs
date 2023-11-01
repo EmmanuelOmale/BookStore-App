@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OrderProcessingApplication.Services;
 using OrderProcessingDomain.Entities.Dtos;
-using RabbitMQ.Client.Events;
 using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
 using System.Diagnostics;
 using System.Net;
 using System.Text;
-using BookStoreDomain.Entities;
+using System.Text.Json;
 
 namespace OrderProcessing.API.Controllers
 {
@@ -32,11 +32,11 @@ namespace OrderProcessing.API.Controllers
             }
             var customerId = "12345"; // Should be replaced with authenticated customer's Id
             var items = order.OrderItems;
-            var newOrder = await _orderProcessingService.PlaceOrderAsync(customerId, items);
+            
 
-            return Ok(newOrder);
+            return Ok(items);
         }
-        private async Task<Book> ConsumeBookResponse(string bookId)
+        private async Task<string> ConsumeBookResponse(string bookId)
         {
             var con = new ConnectionFactory()
             {
@@ -57,18 +57,17 @@ namespace OrderProcessing.API.Controllers
                 consumer.Received += async (model, ea) =>
                 {
                     // Get the book data from the response
-                    var body = ea.Body;
+                    var body = ea.Body.ToArray();
+                    
                     bookData = Encoding.UTF8.GetString(body);
+
 
                     // Check if this is the response for the requested book ID
                     var responseBookId = ea.BasicProperties.CorrelationId;
                     if (responseBookId == bookId)
                     {
-                        // You have received the response for the requested book ID
-                        // You can now proceed with processing the order
-                        var customerId = "12345"; // Replace with authenticated customer's Id
-                        var orderItems = new List<CartItem>(); // Replace with your actual order items
-                        var newOrder = await _orderProcessingService.PlaceOrderAsync(customerId, orderItems, bookData);
+
+                        var newOrder = await _orderProcessingService.PlaceOrderAsync(bookData, "123", 2, 200);
 
                         // Continue processing with the new order
 
@@ -81,16 +80,11 @@ namespace OrderProcessing.API.Controllers
                 channel.BasicConsume(queue: "book_response_queue", autoAck: false, consumer: consumer);
 
                 // Send a request for the book with the specified bookId
-                var correlationId = Guid.NewGuid().ToString();
+                var correlationId = bookId;
                 var body = Encoding.UTF8.GetBytes(bookId);
                 channel.BasicPublish(
                     exchange: "",
                     routingKey: "book_request_queue",
-                    basicProperties: new IBasicProperties
-                    {
-                        CorrelationId = correlationId,
-                        ReplyTo = "book_response_queue"
-                    },
                     body: body
                 );
 

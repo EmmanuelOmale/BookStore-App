@@ -1,4 +1,5 @@
-﻿using OrderProcessingDomain.Entities.Dtos;
+﻿using OrderProcessingDomain.Entities;
+using OrderProcessingDomain.Entities.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -10,7 +11,7 @@ namespace OrderProcessingApplication.Services
 {
     public interface IOrderProcessingService
     {
-        Task<CartDto> PlaceOrderAsync(string customerId, List<CartItemDto> items);
+        Task<CartItem> PlaceOrderAsync(string bookid, string cartid, int quantity, decimal price);
 
     }
 }

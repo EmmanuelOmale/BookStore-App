@@ -740,16 +740,6 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "BookStoreDomain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/BookStoreDomain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BookStoreDomain.dll": {}
-        }
-      },
       "OrderProcessingApplication/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1872,11 +1862,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "BookStoreDomain/1.0.0": {
-      "type": "project",
-      "path": "../BookStoreDomain/BookStoreDomain.csproj",
-      "msbuildProject": "../BookStoreDomain/BookStoreDomain.csproj"
-    },
     "OrderProcessingApplication/1.0.0": {
       "type": "project",
       "path": "../OrderProcessingApplication/OrderProcessingApplication.csproj",
@@ -1897,7 +1882,6 @@
     "net6.0": [
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
-      "BookStoreDomain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.13",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.18.1",
       "OrderProcessingApplication >= 1.0.0",
@@ -1933,9 +1917,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStoreDomain\\BookStoreDomain.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStoreDomain\\BookStoreDomain.csproj"
-            },
             "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj": {
               "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj"
             }
