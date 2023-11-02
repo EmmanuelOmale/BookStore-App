@@ -1,17 +1,140 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\InventoryManagementApplication\\InventoryManagementApplication.csproj": {}
+    "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementApplication\\InventoryManagementApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\InventoryManagementApplication\\InventoryManagementApplication.csproj": {
+    "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementApplication\\InventoryManagementApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\InventoryManagementApplication\\InventoryManagementApplication.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementApplication\\InventoryManagementApplication.csproj",
         "projectName": "InventoryManagementApplication",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\InventoryManagementApplication\\InventoryManagementApplication.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementApplication\\InventoryManagementApplication.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\InventoryManagementApplication\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementDomain\\InventoryManagementDomain.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementDomain\\InventoryManagementDomain.csproj"
+              },
+              "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementPersistence\\InventoryManagementPersistence.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementPersistence\\InventoryManagementPersistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementDomain\\InventoryManagementDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementDomain\\InventoryManagementDomain.csproj",
+        "projectName": "InventoryManagementDomain",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementDomain\\InventoryManagementDomain.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementPersistence\\InventoryManagementPersistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementPersistence\\InventoryManagementPersistence.csproj",
+        "projectName": "InventoryManagementPersistence",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementPersistence\\InventoryManagementPersistence.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementPersistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

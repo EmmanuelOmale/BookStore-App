@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\RabbitMQService\\RabbitMQService.csproj": {}
+    "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\RabbitMQService\\RabbitMQService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\RabbitMQService\\RabbitMQService.csproj": {
+    "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\RabbitMQService\\RabbitMQService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\RabbitMQService\\RabbitMQService.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\RabbitMQService\\RabbitMQService.csproj",
         "projectName": "RabbitMQService",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\RabbitMQService\\RabbitMQService.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\RabbitMQService\\RabbitMQService.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\RabbitMQService\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\RabbitMQService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

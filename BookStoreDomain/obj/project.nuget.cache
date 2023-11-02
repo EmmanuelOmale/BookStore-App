@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LDpG6cuN2UThM3HD/LCwserKgpCxXyBPh6dk7vSwXp/70Vt/QnsLiORuZFsAiFX0T4HkeHepJL/3MzK4bfPS+Q==",
+  "dgSpecHash": "g8TggXKsSuh7BOuuzFf5EFpmDjkaICHKn53wyu66oe4fDpWk5nEwcKCLDUklcn6jddYxiQ8Op6GdHcNYW6w6Tw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStoreDomain\\BookStoreDomain.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStoreDomain\\BookStoreDomain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

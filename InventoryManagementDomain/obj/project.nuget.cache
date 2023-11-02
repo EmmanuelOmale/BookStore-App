@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pMm0kgihqSjHqdBq0jIRBd8CTwZThX2NGkBRkHv2n4HDT7Sj+gGpOaug/J6mGa+4c4oZ0sfN4zjGQEPpj6teRg==",
+  "dgSpecHash": "JLXnqWO8++GoHhTbFzDYp2pa6tNUiNSHu3ugI6NvwRKfxCoG6qP4X6Nf5UtTODkEGIydkC7ulP++dxGd65RAkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\InventoryManagementDomain\\InventoryManagementDomain.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementDomain\\InventoryManagementDomain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

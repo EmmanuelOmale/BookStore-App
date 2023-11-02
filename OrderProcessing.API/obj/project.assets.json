@@ -1895,11 +1895,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessing.API\\OrderProcessing.API.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessing.API\\OrderProcessing.API.csproj",
       "projectName": "OrderProcessing.API",
-      "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessing.API\\OrderProcessing.API.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessing.API\\OrderProcessing.API.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessing.API\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessing.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1917,8 +1917,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj"
+            "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj"
             }
           }
         }

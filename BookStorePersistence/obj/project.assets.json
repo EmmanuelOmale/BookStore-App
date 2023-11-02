@@ -2545,11 +2545,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStorePersistence\\BookStorePersistence.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStorePersistence\\BookStorePersistence.csproj",
       "projectName": "BookStorePersistence",
-      "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStorePersistence\\BookStorePersistence.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStorePersistence\\BookStorePersistence.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStorePersistence\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStorePersistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2566,8 +2566,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStoreDomain\\BookStoreDomain.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStoreDomain\\BookStoreDomain.csproj"
+            "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStoreDomain\\BookStoreDomain.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStoreDomain\\BookStoreDomain.csproj"
             }
           }
         }

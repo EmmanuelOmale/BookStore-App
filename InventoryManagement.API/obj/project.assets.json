@@ -1124,6 +1124,41 @@
         "runtime": {
           "bin/placeholder/BookStorePersistence.dll": {}
         }
+      },
+      "InventoryManagementApplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "InventoryManagementDomain": "1.0.0",
+          "InventoryManagementPersistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagementApplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagementApplication.dll": {}
+        }
+      },
+      "InventoryManagementDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/InventoryManagementDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagementDomain.dll": {}
+        }
+      },
+      "InventoryManagementPersistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/InventoryManagementPersistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagementPersistence.dll": {}
+        }
       }
     }
   },
@@ -2905,11 +2940,27 @@
       "type": "project",
       "path": "../BookStorePersistence/BookStorePersistence.csproj",
       "msbuildProject": "../BookStorePersistence/BookStorePersistence.csproj"
+    },
+    "InventoryManagementApplication/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagementApplication/InventoryManagementApplication.csproj",
+      "msbuildProject": "../InventoryManagementApplication/InventoryManagementApplication.csproj"
+    },
+    "InventoryManagementDomain/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagementDomain/InventoryManagementDomain.csproj",
+      "msbuildProject": "../InventoryManagementDomain/InventoryManagementDomain.csproj"
+    },
+    "InventoryManagementPersistence/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagementPersistence/InventoryManagementPersistence.csproj",
+      "msbuildProject": "../InventoryManagementPersistence/InventoryManagementPersistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "BookStore.API >= 1.0.0",
+      "InventoryManagementApplication >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.18.1",
       "RabbitMQ.Client >= 6.6.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -2921,11 +2972,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\InventoryManagement.API\\InventoryManagement.API.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagement.API\\InventoryManagement.API.csproj",
       "projectName": "InventoryManagement.API",
-      "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\InventoryManagement.API\\InventoryManagement.API.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagement.API\\InventoryManagement.API.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\InventoryManagement.API\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagement.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2943,8 +2994,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStore.API\\BookStore.API.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStore.API\\BookStore.API.csproj"
+            "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStore.API\\BookStore.API.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStore.API\\BookStore.API.csproj"
+            },
+            "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementApplication\\InventoryManagementApplication.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementApplication\\InventoryManagementApplication.csproj"
             }
           }
         }

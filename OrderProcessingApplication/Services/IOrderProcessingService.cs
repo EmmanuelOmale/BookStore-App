@@ -12,6 +12,5 @@ namespace OrderProcessingApplication.Services
     public interface IOrderProcessingService
     {
         Task<CartItem> PlaceOrderAsync(string bookid, string cartid, int quantity, decimal price);
-
     }
 }

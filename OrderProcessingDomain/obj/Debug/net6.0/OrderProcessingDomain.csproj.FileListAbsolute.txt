@@ -10,3 +10,15 @@ C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingDomain\
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingDomain\obj\Debug\net6.0\refint\OrderProcessingDomain.dll
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingDomain\obj\Debug\net6.0\OrderProcessingDomain.pdb
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\OrderProcessingDomain\obj\Debug\net6.0\ref\OrderProcessingDomain.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\OrderProcessingDomain\bin\Debug\net6.0\OrderProcessingDomain.deps.json
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\OrderProcessingDomain\bin\Debug\net6.0\OrderProcessingDomain.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\OrderProcessingDomain\bin\Debug\net6.0\OrderProcessingDomain.pdb
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\OrderProcessingDomain\obj\Debug\net6.0\OrderProcessingDomain.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\OrderProcessingDomain\obj\Debug\net6.0\OrderProcessingDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\OrderProcessingDomain\obj\Debug\net6.0\OrderProcessingDomain.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\OrderProcessingDomain\obj\Debug\net6.0\OrderProcessingDomain.AssemblyInfo.cs
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\OrderProcessingDomain\obj\Debug\net6.0\OrderProcessingDomain.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\OrderProcessingDomain\obj\Debug\net6.0\OrderProcessingDomain.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\OrderProcessingDomain\obj\Debug\net6.0\refint\OrderProcessingDomain.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\OrderProcessingDomain\obj\Debug\net6.0\OrderProcessingDomain.pdb
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\OrderProcessingDomain\obj\Debug\net6.0\ref\OrderProcessingDomain.dll

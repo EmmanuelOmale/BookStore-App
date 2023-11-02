@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vEr42T378spubWcwBWXcJ8NwKzxEiWpyUldtJQl5QspkXGWGtU6ftMEwRmMckxdIu3E6477hK8ClSGHFeOfR/g==",
+  "dgSpecHash": "WRf0MsNOtTmfeusNDKZi/St8tnUowb2ljbRgyKvJB3O/ELT84yywIwmgb9/swcuKQfr1tEkjs6erImCJfaADXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStoreApplication\\BookStoreApplication.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStoreApplication\\BookStoreApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

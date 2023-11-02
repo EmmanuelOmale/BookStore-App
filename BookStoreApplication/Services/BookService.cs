@@ -1,12 +1,6 @@
 ﻿using AutoMapper;
 using BookStoreDomain.Entities;
-using BookStoreDomain.Entities.Dtos;
 using BookStorePersistence.Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BookStoreApplication.Services
 {

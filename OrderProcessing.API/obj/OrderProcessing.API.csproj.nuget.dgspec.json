@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessing.API\\OrderProcessing.API.csproj": {}
+    "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessing.API\\OrderProcessing.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessing.API\\OrderProcessing.API.csproj": {
+    "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessing.API\\OrderProcessing.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessing.API\\OrderProcessing.API.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessing.API\\OrderProcessing.API.csproj",
         "projectName": "OrderProcessing.API",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessing.API\\OrderProcessing.API.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessing.API\\OrderProcessing.API.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessing.API\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessing.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj"
+              "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj": {
+    "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj",
         "projectName": "OrderProcessingApplication",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\OrderProcessingApplication.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -119,11 +119,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj"
+              "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj"
               },
-              "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\OrderProcessingPersistence.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\OrderProcessingPersistence.csproj"
+              "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\OrderProcessingPersistence.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\OrderProcessingPersistence.csproj"
               }
             }
           }
@@ -163,14 +163,14 @@
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj": {
+    "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj",
         "projectName": "OrderProcessingDomain",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -218,14 +218,14 @@
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\OrderProcessingPersistence.csproj": {
+    "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\OrderProcessingPersistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\OrderProcessingPersistence.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\OrderProcessingPersistence.csproj",
         "projectName": "OrderProcessingPersistence",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\OrderProcessingPersistence.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\OrderProcessingPersistence.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingPersistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -242,8 +242,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj"
+              "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj"
               }
             }
           }

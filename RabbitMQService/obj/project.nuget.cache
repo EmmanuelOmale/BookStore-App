@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "61bq+1cXQfPaFR8xyRPwgjIXdElftYw6dG+uzKzC+o2Rc9NbfSpKKUkdW98wZUaNluMmt5FPD9ufvTkT9xaDdQ==",
+  "dgSpecHash": "C1WpAoOwwT5eB1PbH4IPbb3Zw8CBPkNBo2ar4tcvdM9UVXyXUv8C+++0mAIMZ+fKl0PTZuVgQtHuwBsg353rhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\RabbitMQService\\RabbitMQService.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\RabbitMQService\\RabbitMQService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\rabbitmq.client\\6.6.0\\rabbitmq.client.6.6.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",

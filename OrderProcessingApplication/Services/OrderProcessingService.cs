@@ -27,8 +27,6 @@ namespace OrderProcessingApplication.Services
                 BookId = bookid,
                 Quantity = quantity,
                 UnitPrice = price,
-                
-
             };
             _order.Add(cart);
             await _order.SaveChangesAsync();

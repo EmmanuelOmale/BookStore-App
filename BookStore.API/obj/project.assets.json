@@ -2991,11 +2991,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStore.API\\BookStore.API.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStore.API\\BookStore.API.csproj",
       "projectName": "BookStore.API",
-      "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStore.API\\BookStore.API.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStore.API\\BookStore.API.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStore.API\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStore.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3013,14 +3013,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStoreApplication\\BookStoreApplication.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStoreApplication\\BookStoreApplication.csproj"
+            "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStoreApplication\\BookStoreApplication.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStoreApplication\\BookStoreApplication.csproj"
             },
-            "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStoreDomain\\BookStoreDomain.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStoreDomain\\BookStoreDomain.csproj"
+            "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStoreDomain\\BookStoreDomain.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStoreDomain\\BookStoreDomain.csproj"
             },
-            "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStorePersistence\\BookStorePersistence.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStorePersistence\\BookStorePersistence.csproj"
+            "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStorePersistence\\BookStorePersistence.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStorePersistence\\BookStorePersistence.csproj"
             }
           }
         }

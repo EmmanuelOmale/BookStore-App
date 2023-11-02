@@ -17,3 +17,22 @@ C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\BookStoreApplication\o
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\BookStoreApplication\obj\Debug\net6.0\BookStoreApplication.pdb
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\BookStoreApplication\obj\Debug\net6.0\BookStoreApplication.genruntimeconfig.cache
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\BookStoreApplication\obj\Debug\net6.0\ref\BookStoreApplication.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\bin\Debug\net6.0\BookStoreApplication.deps.json
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\bin\Debug\net6.0\BookStoreApplication.runtimeconfig.json
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\bin\Debug\net6.0\BookStoreApplication.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\bin\Debug\net6.0\BookStoreApplication.pdb
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\bin\Debug\net6.0\BookStoreDomain.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\bin\Debug\net6.0\BookStorePersistence.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\bin\Debug\net6.0\BookStoreDomain.pdb
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\bin\Debug\net6.0\BookStorePersistence.pdb
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\obj\Debug\net6.0\BookStoreApplication.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\obj\Debug\net6.0\BookStoreApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\obj\Debug\net6.0\BookStoreApplication.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\obj\Debug\net6.0\BookStoreApplication.AssemblyInfo.cs
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\obj\Debug\net6.0\BookStoreApplication.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\obj\Debug\net6.0\BookStoreApplication.csproj.CopyComplete
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\obj\Debug\net6.0\BookStoreApplication.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\obj\Debug\net6.0\refint\BookStoreApplication.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\obj\Debug\net6.0\BookStoreApplication.pdb
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\obj\Debug\net6.0\BookStoreApplication.genruntimeconfig.cache
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\BookStoreApplication\obj\Debug\net6.0\ref\BookStoreApplication.dll

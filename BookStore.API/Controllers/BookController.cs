@@ -1,14 +1,10 @@
 using BookStoreApplication.Services;
 using BookStoreDomain.Entities;
 using BookStoreDomain.Entities.Dtos;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
-using System;
 using System.Text;
-using System.Threading.Tasks;
-using System.Collections.Generic;
 using System.Text.Json;
 
 namespace BookStore.API.Controllers

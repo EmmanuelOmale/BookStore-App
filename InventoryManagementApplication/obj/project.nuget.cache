@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "euK5y3TcbNEFzbQ4c32ssk1bOOmv24oRwP//AJoJsPule2FmPcWqp7RUdz4gGo8bjszyKxTqoI0107IY58mChQ==",
+  "dgSpecHash": "9kbyQXXw2bF1qwmzTbBUN/mQUCvFa+KrAuhaxW7UZTWHu92hi4yDythFQitUVrWkfzFY/S25KIeJLALhUb4m/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\InventoryManagementApplication\\InventoryManagementApplication.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagementApplication\\InventoryManagementApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

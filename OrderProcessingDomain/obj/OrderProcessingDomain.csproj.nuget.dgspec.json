@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj": {}
+    "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj": {
+    "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj",
         "projectName": "OrderProcessingDomain",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\OrderProcessingDomain.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\OrderProcessingDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

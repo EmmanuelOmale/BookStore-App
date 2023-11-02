@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "87cfPpKJG5QV4ly2IM4DhOxrSG75HdxcJqCnwz0pli+k/S7TN/LJiaTXvprIJiMmBwts7HjKSjZ2E+a92uYQ5Q==",
+  "dgSpecHash": "vnHbhPZuU2cHcenKZZD8QCcyQVhaAbNOavdsryPb3Fe6bLsdkifi4UwmLFK0XSNPUgo5fLeeG2OyvexmepohKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\InventoryManagement.API\\InventoryManagement.API.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\InventoryManagement.API\\InventoryManagement.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
