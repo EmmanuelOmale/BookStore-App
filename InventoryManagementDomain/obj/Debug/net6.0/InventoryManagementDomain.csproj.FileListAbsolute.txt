@@ -10,3 +10,15 @@ C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementDom
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementDomain\obj\Debug\net6.0\refint\InventoryManagementDomain.dll
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementDomain\obj\Debug\net6.0\InventoryManagementDomain.pdb
 C:\Users\HP\Desktop\Work & Study\Assessment\BookStore.API\InventoryManagementDomain\obj\Debug\net6.0\ref\InventoryManagementDomain.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\InventoryManagementDomain\bin\Debug\net6.0\InventoryManagementDomain.deps.json
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\InventoryManagementDomain\bin\Debug\net6.0\InventoryManagementDomain.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\InventoryManagementDomain\bin\Debug\net6.0\InventoryManagementDomain.pdb
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\InventoryManagementDomain\obj\Debug\net6.0\InventoryManagementDomain.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\InventoryManagementDomain\obj\Debug\net6.0\InventoryManagementDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\InventoryManagementDomain\obj\Debug\net6.0\InventoryManagementDomain.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\InventoryManagementDomain\obj\Debug\net6.0\InventoryManagementDomain.AssemblyInfo.cs
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\InventoryManagementDomain\obj\Debug\net6.0\InventoryManagementDomain.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\InventoryManagementDomain\obj\Debug\net6.0\InventoryManagementDomain.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\InventoryManagementDomain\obj\Debug\net6.0\refint\InventoryManagementDomain.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\InventoryManagementDomain\obj\Debug\net6.0\InventoryManagementDomain.pdb
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\InventoryManagementDomain\obj\Debug\net6.0\ref\InventoryManagementDomain.dll

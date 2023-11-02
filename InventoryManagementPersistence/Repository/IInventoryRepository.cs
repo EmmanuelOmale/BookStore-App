@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InventoryManagementPersistence.Repository
 {
-    internal interface Interface1
+    public interface IInventoryRepository
     {
     }
 }

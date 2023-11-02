@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\RabbitMQService\bin\Debug\net6.0\RabbitMQService.deps.json
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\RabbitMQService\bin\Debug\net6.0\RabbitMQService.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\RabbitMQService\bin\Debug\net6.0\RabbitMQService.pdb
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\RabbitMQService\obj\Debug\net6.0\RabbitMQService.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\RabbitMQService\obj\Debug\net6.0\RabbitMQService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\RabbitMQService\obj\Debug\net6.0\RabbitMQService.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\RabbitMQService\obj\Debug\net6.0\RabbitMQService.AssemblyInfo.cs
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\RabbitMQService\obj\Debug\net6.0\RabbitMQService.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\RabbitMQService\obj\Debug\net6.0\RabbitMQService.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\RabbitMQService\obj\Debug\net6.0\refint\RabbitMQService.dll
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\RabbitMQService\obj\Debug\net6.0\RabbitMQService.pdb
+C:\Users\HP\Desktop\Work_and_Study\Assessment\BookStore.API\RabbitMQService\obj\Debug\net6.0\ref\RabbitMQService.dll

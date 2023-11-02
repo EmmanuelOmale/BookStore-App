@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "VmCvXmh5/6nJTFeraFFufXjwcIHX+t9dYJGyjSGKN/Y=",
+  "Hash": "4SjVJsaUKrkAvI2rc45PHRkjvKqNJX1fFeYIqs3UkWc=",
   "Source": "InventoryManagement.API",
   "BasePath": "_content/InventoryManagement.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\HP\\Desktop\\Work & Study\\Assessment\\BookStore.API\\BookStore.API\\BookStore.API.csproj",
+      "Identity": "C:\\Users\\HP\\Desktop\\Work_and_Study\\Assessment\\BookStore.API\\BookStore.API\\BookStore.API.csproj",
       "Version": 2,
       "Source": "BookStore.API",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
