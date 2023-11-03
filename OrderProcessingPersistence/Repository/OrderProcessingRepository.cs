@@ -1,11 +1,7 @@
-﻿using OrderProcessingDomain.Entities;
-using OrderProcessingDomain.Entities.Dtos;
+﻿using Microsoft.EntityFrameworkCore;
+using OrderProcessingDomain.Entities;
 using OrderProcessingPersistence.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using static OrderProcessingDomain.Entities.Enum;
 
 namespace OrderProcessingPersistence.Repository
 {
@@ -17,10 +13,22 @@ namespace OrderProcessingPersistence.Repository
             _orderContext = orderContext;   
         }
         
-        public async Task PlaceOrderAsync(CartItem order)
+        public async Task PlaceOrderAsync(CartItem cartItem)
         {
-            _orderContext.CartItems.Add(order);
+            _orderContext.CartItems.Add(cartItem);
             await _orderContext.SaveChangesAsync();
+        }
+
+        public async Task<OrderStatus> GetOrderStatusAsync(string cartId)
+        {
+            var getCart = await _orderContext
+                 .Carts
+                 .FirstOrDefaultAsync(c => c.Id == cartId);
+            if (getCart != null)
+            {
+                return getCart.OrderStatus;
+            }
+            return OrderStatus.Unknown;
         }
     }
 }

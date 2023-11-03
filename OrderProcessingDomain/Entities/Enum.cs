@@ -15,6 +15,7 @@ namespace OrderProcessingDomain.Entities
             Sucessful,
             Shipped,
             Delivered,
+            Unknown,
         }
     }
 

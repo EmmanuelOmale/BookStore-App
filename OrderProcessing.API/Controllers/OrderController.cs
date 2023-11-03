@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using OrderProcessingApplication.Services;
 using OrderProcessingDomain.Entities;
 using OrderProcessingDomain.Entities.Dtos;
@@ -13,41 +14,57 @@ namespace OrderProcessing.API.Controllers
     public class OrderController : ControllerBase
     {
         private readonly IOrderProcessingService _orderProcessingService;
+        private readonly IMapper _mapper;
 
-        public OrderController(IOrderProcessingService orderProcessingService)
+        public OrderController(IOrderProcessingService orderProcessingService, IMapper mapper)
         {
             _orderProcessingService = orderProcessingService;
+            _mapper = mapper;   
+
         }
 
         [HttpPost("{addItemToCart}", Name = "Add book to cart")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> AddBookToCart([FromBody] CartItemDto addItemToCart)
+        public async Task<IActionResult> AddBookToCart([FromBody] CartItemDto cartItem)
         {
-            if (addItemToCart == null)
+            if (cartItem == null)
             {
                 return BadRequest("Invalid request.");
             }
-            var bookData = await ConsumeBookResponse(addItemToCart.BookId);
-            var cartItem = new CartItem()
+            var bookData = await ConsumeBookResponse(cartItem.BookId);
+            var newItem = new CartItem()
             {
-                BookId = addItemToCart.BookId,
-                Quantity = addItemToCart.Quantity,
+                BookId = cartItem.BookId,
+                Quantity = cartItem.Quantity,
                 UnitPrice = 20,
                 Id = Guid.NewGuid().ToString(),
             };
             await _orderProcessingService
-                .PlaceOrderAsync(addItemToCart.BookId, addItemToCart.CartId, 20);
-            return Ok(cartItem);
+                .PlaceOrderAsync(cartItem.BookId, cartItem.CartId, 20);
+            return Ok(newItem);
         }
 
-       /* [HttpPost]
+        [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async IActionResult GetOrderStatus(CartId cartId)
+        public async Task<IActionResult> GetOrderStatus(string cartId)
         {
-            return Ok(cartId);
-        }*/
+            if (cartId == null)
+            {
+                return BadRequest("Invalid cartId");
+            }
+            try
+            {
+                var orderStatus = _orderProcessingService
+                    .GetOrderStatusAsync(cartId);
+                return Ok(orderStatus);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Failed to fetch order status: {ex.Message}");
+            }
+        }
 
         private async Task<string> ConsumeBookResponse(string bookId)
         {

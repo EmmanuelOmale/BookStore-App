@@ -21,10 +21,10 @@ namespace BookStorePersistence.Repository
 
         public async Task<Book> GetBookAsync(string BookId)
         {
-            return await _bookContext
+            var book = await _bookContext
                 .Books
-                .Where(x => x.Id == BookId)
-                .FirstOrDefaultAsync();
+                .FirstOrDefaultAsync(x => x.Id == BookId);
+            return book;
         }
 
         public async Task<Book> AddBookAsync(Book book)
@@ -32,7 +32,6 @@ namespace BookStorePersistence.Repository
             await _bookContext
                 .Books
                 .AddAsync(book);
-
             return book;
         }
     }

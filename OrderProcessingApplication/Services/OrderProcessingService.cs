@@ -29,5 +29,11 @@ namespace OrderProcessingApplication.Services
             await _order.PlaceOrderAsync(cart);
             return cart;
         }
+
+        public async Task<OrderStatus> GetOrderStatusAsync(string cartId)
+        {
+            return await _order
+                .GetOrderStatusAsync(cartId);
+        }
     }
 }
