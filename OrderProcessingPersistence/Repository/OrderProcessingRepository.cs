@@ -17,9 +17,9 @@ namespace OrderProcessingPersistence.Repository
             _orderContext = orderContext;   
         }
         
-        public async Task PlaceOrderAsync(Cart order)
+        public async Task PlaceOrderAsync(CartItem order)
         {
-            _orderContext.Carts.Add(order);
+            _orderContext.CartItems.Add(order);
             await _orderContext.SaveChangesAsync();
         }
     }

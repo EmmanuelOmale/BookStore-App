@@ -1,19 +1,14 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using OrderProcessingApplication.Services;
 using OrderProcessingDomain.Entities;
 using OrderProcessingDomain.Entities.Dtos;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
-using System;
 using System.Diagnostics;
-using System.Net;
 using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
 namespace OrderProcessing.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/OrderAPI")]
     [ApiController]
     public class OrderController : ControllerBase
     {
@@ -23,26 +18,36 @@ namespace OrderProcessing.API.Controllers
         {
             _orderProcessingService = orderProcessingService;
         }
-        [HttpPost]
+
+        [HttpPost("{addItemToCart}", Name = "Add book to cart")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> PlaceOrder([FromBody] CartItem order)
+        public async Task<IActionResult> AddBookToCart([FromBody] CartItemDto addItemToCart)
         {
-            if (order == null)
+            if (addItemToCart == null)
             {
                 return BadRequest("Invalid request.");
             }
-            var bookData = await ConsumeBookResponse(order.BookId);
-            var caritem = new CartItem()
+            var bookData = await ConsumeBookResponse(addItemToCart.BookId);
+            var cartItem = new CartItem()
             {
-                BookId = order.BookId,
-                Quantity = order.Quantity,
+                BookId = addItemToCart.BookId,
+                Quantity = addItemToCart.Quantity,
                 UnitPrice = 20,
                 Id = Guid.NewGuid().ToString(),
             };
-            _orderProcessingService.PlaceOrderAsync(order.BookId, order.CartId, 20, 200);
-            return Ok(caritem);
+            await _orderProcessingService
+                .PlaceOrderAsync(addItemToCart.BookId, addItemToCart.CartId, 20);
+            return Ok(cartItem);
         }
+
+       /* [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async IActionResult GetOrderStatus(CartId cartId)
+        {
+            return Ok(cartId);
+        }*/
 
         private async Task<string> ConsumeBookResponse(string bookId)
         {
@@ -68,7 +73,7 @@ namespace OrderProcessing.API.Controllers
 
                     if (responseBookId == bookId)
                     {
-                        var newOrder = await _orderProcessingService.PlaceOrderAsync(bookData, "123", 2, 200);
+                        var newOrder = await _orderProcessingService.PlaceOrderAsync(bookData, "123", 2);
                         channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
                     }
                 };

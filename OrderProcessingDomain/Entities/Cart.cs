@@ -1,11 +1,13 @@
-﻿namespace OrderProcessingDomain.Entities
+﻿using static OrderProcessingDomain.Entities.Enum;
+
+namespace OrderProcessingDomain.Entities
 {
     public class Cart 
     {
         public string Id { get; set; }
         public int CustomerId { get; set; }
         public DateTime OrderDate { get; set; }
-        public string OrderStatus { get; set; } 
+        public OrderStatus OrderStatus { get; set; } 
         public List<CartItem> OrderItems { get; set;} 
         
     }

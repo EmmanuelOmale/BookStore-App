@@ -28,9 +28,8 @@ namespace OrderProcessingPersistence.Migrations
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("OrderStatus")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
+                    b.Property<int>("OrderStatus")
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
@@ -47,6 +46,7 @@ namespace OrderProcessingPersistence.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("CartId")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<int>("Quantity")
@@ -66,7 +66,9 @@ namespace OrderProcessingPersistence.Migrations
                 {
                     b.HasOne("OrderProcessingDomain.Entities.Cart", null)
                         .WithMany("OrderItems")
-                        .HasForeignKey("CartId");
+                        .HasForeignKey("CartId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("OrderProcessingDomain.Entities.Cart", b =>

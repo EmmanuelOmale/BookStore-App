@@ -12,6 +12,7 @@ namespace OrderProcessingDomain.Entities
         {
             Pending,
             Processing,
+            Sucessful,
             Shipped,
             Delivered,
         }

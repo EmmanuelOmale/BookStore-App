@@ -4,6 +4,6 @@ namespace OrderProcessingPersistence.Repository
 {
     public interface IOrderProcessingRepository
     {
-        Task PlaceOrderAsync(Cart order);
+        Task PlaceOrderAsync(CartItem order);
     }
 }
